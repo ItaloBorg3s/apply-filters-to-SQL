@@ -38,6 +38,9 @@ WHERE login_date = '2022-05-09' OR login_date = '2022-05-08';
 - `login_date = '2022-05-09'`: Filters login attempts on 05/09/2022.
 - `login_date = '2022-05-08'`: Filters login attempts on 05/08/2022.
 
+Screenshot:
+![Login Attempts on Specific Dates](screenshots/02_print.png)
+
 ---
 
 ## Retrieve Login Attempts Outside of Mexico
@@ -52,6 +55,9 @@ WHERE NOT country LIKE 'MEX%';
 
 **Explanation:**
 - `NOT country LIKE 'MEX%'`: Excludes login attempts where `country` starts with "MEX".
+
+Screenshot:
+![Login Attempts Outside of Mexico](screenshots/03_print.png)
 
 ---
 
@@ -69,6 +75,9 @@ WHERE department = 'Marketing' AND office LIKE 'East%';
 - `department = 'Marketing'`: Filters employees in the Marketing department.
 - `office LIKE 'East%'`: Filters employees whose office starts with "East".
 
+Screenshot:
+![Employees in Marketing](screenshots/04_print.png)
+
 ---
 
 ## Retrieve Employees in Finance or Sales
@@ -85,6 +94,9 @@ WHERE department = 'Finance' OR department = 'Sales';
 - `department = 'Finance'`: Filters employees in the Finance department.
 - `department = 'Sales'`: Filters employees in the Sales department.
 
+Screenshot:
+![Employees in Finance or Sales](screenshots/05_print.png)
+
 ---
 
 ## Retrieve All Employees Not in IT
@@ -99,6 +111,9 @@ WHERE NOT department = 'Information Technology';
 
 **Explanation:**
 - `NOT department = 'Information Technology'`: Excludes employees in the IT department.
+
+Screenshot:
+![Employees Not in IT](screenshots/06_print.png)
 
 ---
 
