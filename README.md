@@ -19,6 +19,9 @@ WHERE login_time > '18:00' AND success = FALSE;
 - `login_time > '18:00'`: Filters login attempts after 18:00.
 - `success = FALSE`: Filters only failed login attempts.
 
+Screenshot:
+![After Hours Failed Login Attempts](screenshots/01_print.png)
+
 ---
 
 ## Retrieve Login Attempts on Specific Dates
